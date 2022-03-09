@@ -7,20 +7,34 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin: 0px;
 }
 
-.resume-info {
+.resume {
   display: flex;
   margin-top: 40px;
 }
+
 /* Header */
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.123);
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+@media screen and (max-width: 480px) {
+  .header {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 769px;
+  }
+}
+
 .title-header {
   display: flex;
   flex-direction: column;
@@ -34,6 +48,11 @@
   color: rgb(47, 59, 77);
   margin: 0px;
 }
+@media screen and (max-width: 480px) {
+  .name-title {
+    font-size: 30px;
+  }
+}
 .major-title {
   font-size: 30px;
   font-family: Roboto, Georgia, Times, "Times New Roman", serif;
@@ -42,12 +61,22 @@
   color: rgba(0, 0, 0, 0.514);
   margin: 0px;
 }
+@media screen and (max-width: 768px) {
+  .major-title {
+    font-size: 18px;
+  }
+}
 .image-title {
   margin-left: 10px;
   border-radius: 50%;
   box-shadow: 18px 0px 13px 4px rgba(114, 36, 97, 0.2);
 }
-
+@media screen and (max-width: 480px) {
+  .image-title {
+    width: 150px;
+    height: 150px;
+  }
+}
 /* Contacts */
 
 .Contacts-section {
@@ -56,7 +85,6 @@
   box-shadow: 11px -5px 8px 0px rgb(80 34 61 / 40%);
   background-color: rgba(83, 40, 40, 0.13);
   border-radius: 30px;
-  padding: 10px;
   margin-top: 40px;
 }
 .contacts-title {
@@ -138,8 +166,8 @@
 }
 
 .resume-info {
-  width: 900px;
   padding-left: 80px;
+  padding-right: 60px;
   font-family: Robboto, Georgia, Times, "Times New Roman", serif;
   font-weight: 500;
   line-height: 1.8;
@@ -147,6 +175,7 @@
   margin: 0px;
   font-size: 20px;
 }
+
 .resume-project {
   text-decoration: none;
   font-family: Robboto, Georgia, Times, "Times New Roman", serif;
