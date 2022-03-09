@@ -45,7 +45,7 @@
 .image-title {
   margin-left: 10px;
   border-radius: 50%;
-  box-shadow: 18px 0px 13px 4px rgb(34 60 80 / 20%);
+  box-shadow: 18px 0px 13px 4px rgba(114, 36, 97, 0.2);
 }
 
 /* Contacts */
@@ -82,6 +82,7 @@
   margin: 0px;
   padding: 25px;
 }
+
 .contacts-info {
   display: flex;
   align-items: center;
