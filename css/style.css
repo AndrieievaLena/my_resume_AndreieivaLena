@@ -1,0 +1,173 @@
+.page {
+  background-image: url(../Images/Page.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.resume-info {
+  display: flex;
+  margin-top: 40px;
+}
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.123);
+  padding: 15px;
+}
+.title-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-title {
+  font-size: 50px;
+  font-family: Ralleway, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: rgb(47, 59, 77);
+  margin: 0px;
+}
+.major-title {
+  font-size: 30px;
+  font-family: Roboto, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.514);
+  margin: 0px;
+}
+.image-title {
+  margin-left: 10px;
+  border-radius: 50%;
+  box-shadow: 18px 0px 13px 4px rgb(34 60 80 / 20%);
+}
+
+/* Contacts */
+
+.Contacts-section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 11px -5px 8px 0px rgb(80 34 61 / 40%);
+  background-color: rgba(83, 40, 40, 0.13);
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 40px;
+}
+.contacts-title {
+  font-size: 20px;
+  color: rgb(47, 59, 77);
+  font-family: Ralleway, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+.image-icon {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contacts-list {
+  font-size: 18px;
+  color: rgb(25, 75, 145);
+  font-family: Roboto, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  margin-left: 20px;
+  list-style-type: none;
+  letter-spacing: 1.8;
+  margin: 0px;
+  padding: 25px;
+}
+.contacts-info {
+  display: flex;
+  align-items: center;
+}
+.country {
+  color: rgba(165, 42, 73, 0.603);
+}
+.country-slash {
+  color: rgb(25, 75, 145);
+}
+.tel,
+.mail,
+.linkendin,
+.github {
+  text-decoration: none;
+  color: rgb(25, 75, 145);
+}
+.tel:hover,
+.mail:hover,
+.linkendin:hover,
+.github:hover {
+  color: rgba(165, 42, 73, 0.603);
+}
+.tel:focus,
+.mail:focus,
+.linkendin:focus,
+.github:focus {
+  color: rgba(165, 42, 73, 0.603);
+}
+.contacts-info:not(:last-child) {
+  padding-bottom: 10px;
+}
+/* Resume section */
+.resume-section {
+  margin-top: 40px;
+}
+
+.resume-block {
+  display: flex;
+  flex-direction: column;
+}
+.resume-title {
+  font-size: 30px;
+  font-family: Ralleway, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  line-height: 1.6;
+  color: rgb(47, 59, 77);
+  margin: 0px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.resume-info {
+  width: 900px;
+  padding-left: 80px;
+  font-family: Robboto, Georgia, Times, "Times New Roman", serif;
+  font-weight: 500;
+  line-height: 1.8;
+  color: rgba(24, 26, 29, 0.726);
+  margin: 0px;
+  font-size: 20px;
+}
+.resume-project {
+  text-decoration: none;
+  font-family: Robboto, Georgia, Times, "Times New Roman", serif;
+  color: rgba(165, 42, 73, 0.603);
+  padding-left: 80px;
+}
+.resume-project:hover {
+  color: rgba(24, 26, 29, 0.726);
+}
+.resume-project:focus {
+  color: rgba(24, 26, 29, 0.726);
+}
+.resume-list {
+  list-style: none;
+  font-weight: 600;
+  padding: 0px;
+}
+.resume-date {
+  color: rgba(165, 42, 73, 0.842);
+}
+.data {
+  color: rgba(165, 42, 73, 0.842);
+  margin: 0px;
+  padding-left: 80px;
+}
