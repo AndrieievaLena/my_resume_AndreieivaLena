@@ -34,6 +34,11 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+@media screen and (max-width: 768px) {
+  .header {
+    width: 1600px;
+  }
+}
 @media screen and (max-width: 480px) {
   .header {
     width: 480px;
@@ -96,6 +101,7 @@
   background-color: rgba(83, 40, 40, 0.13);
   border-radius: 30px;
   margin-top: 40px;
+  margin-left: 15px;
 }
 .contacts-title {
   font-size: 20px;
