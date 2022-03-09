@@ -9,44 +9,58 @@
   background-size: cover;
   margin: 0px;
 }
-@media screen and (max-width: 480px) {
-  .page {
-    width: 480px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .page {
-    width: 769px;
-  }
-}
 
 .resume {
   display: flex;
   margin-top: 40px;
 }
-
+@media screen and (max-width: 480px) {
+  .resume {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resume {
+    margin-bottom: 80px;
+  }
+}
 /* Header */
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.123);
   padding-top: 15px;
   padding-bottom: 15px;
-}
-@media screen and (max-width: 768px) {
-  .header {
-    width: 1600px;
-  }
+  box-shadow: -20px 18px 20px 0px rgb(80 34 61 / 40%);
 }
 @media screen and (max-width: 480px) {
   .header {
-    width: 480px;
+    background-image: url(../Images/Page2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .header {
-    width: 769px;
+    background-image: url(../Images/Page2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    background-color: rgba(0, 0, 0, 0.123);
   }
 }
 
@@ -55,6 +69,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .name-title {
   font-size: 50px;
   font-family: Ralleway, Georgia, Times, "Times New Roman", serif;
@@ -63,11 +78,15 @@
   color: rgb(47, 59, 77);
   margin: 0px;
 }
+
 @media screen and (max-width: 480px) {
   .name-title {
-    font-size: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
   }
 }
+
 .major-title {
   font-size: 30px;
   font-family: Roboto, Georgia, Times, "Times New Roman", serif;
@@ -76,11 +95,13 @@
   color: rgba(0, 0, 0, 0.514);
   margin: 0px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .major-title {
     font-size: 18px;
+    padding-left: 20px;
   }
 }
+
 .image-title {
   margin-left: 10px;
   border-radius: 50%;
@@ -88,10 +109,11 @@
 }
 @media screen and (max-width: 480px) {
   .image-title {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 }
+
 /* Contacts */
 
 .Contacts-section {
@@ -101,8 +123,20 @@
   background-color: rgba(83, 40, 40, 0.13);
   border-radius: 30px;
   margin-top: 40px;
-  margin-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+@media screen and (max-width: 480px) {
+  .Contacts-section {
+    width: 320px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .Contacts-section {
+    margin-left: 10px;
+  }
+}
+
 .contacts-title {
   font-size: 20px;
   color: rgb(47, 59, 77);
@@ -130,6 +164,11 @@
 .contacts-info {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .contacts-info {
+    font-size: 15px;
+  }
 }
 .country {
   color: rgba(165, 42, 73, 0.603);
@@ -163,6 +202,11 @@
 .resume-section {
   margin-top: 40px;
 }
+@media screen and (max-width: 480px) {
+  .resume-section {
+    padding-bottom: 60px;
+  }
+}
 
 .resume-block {
   display: flex;
@@ -180,6 +224,12 @@
   padding-bottom: 15px;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .resume-title {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 
 .resume-info {
   padding-left: 80px;
@@ -191,12 +241,26 @@
   margin: 0px;
   font-size: 20px;
 }
+@media screen and (max-width: 480px) {
+  .resume-info {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 
 .resume-project {
   text-decoration: none;
   font-family: Robboto, Georgia, Times, "Times New Roman", serif;
   color: rgba(165, 42, 73, 0.603);
   padding-left: 80px;
+}
+@media screen and (max-width: 480px) {
+  .resume-project {
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
 }
 .resume-project:hover {
   color: rgba(24, 26, 29, 0.726);
